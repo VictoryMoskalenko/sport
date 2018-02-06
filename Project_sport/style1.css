@@ -20,13 +20,15 @@ html, body {
 	margin-bottom: 70px;
 }
 .container {
-	min-width: 1090px;  
+	min-width: 1090;
+/*	max-width: 1090px;  */
 	margin: 0 auto;
 	height: inherit;	
 }
 .roadmap {
 	height: 366px;
 }
+
 h1 {
 	font-family : "DINPro-Light";
   	font-size : 42px;
@@ -236,7 +238,7 @@ button {
   	border: none;
   	cursor: pointer;
 }
-.hidden {
+.hiddenBlock {
 	opacity: 0;
 }
 @media (max-width:900px) {

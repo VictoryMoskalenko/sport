@@ -20,8 +20,8 @@ html, body {
 	margin-bottom: 70px;
 }
 .container {
-	min-width: 1090;
-/*	max-width: 1090px;  */
+	width: 1090;
+	max-width: 1090px;  
 	margin: 0 auto;
 	height: inherit;	
 }
